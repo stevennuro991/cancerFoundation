@@ -17250,8 +17250,8 @@ section.section {
 .promo-primary__title {
     position: relative;
     color: #fff;
-    line-height: 60px;
-    font-size: 42px
+    line-height: 150px;
+    font-size: 18px
 }
 
 @media only screen and (min-width:992px) {
@@ -23965,8 +23965,10 @@ footer.footer--front_3 .footer__lower {
 
 .article__img img {
     display: block;
-    width: 100%;
-    height: auto
+    width: 40%;
+    height: auto;
+    margin: auto;
+
 }
 
 .article__list {
@@ -27289,5 +27291,12 @@ section.shop {
     color: #5e5c8b;
     line-height: 1.2
 }
+
+button{
+    border-radius: 20px;
+    background-color: orange;
+    
+}
+
 
 /*# sourceMappingURL=styles.min.css.map */
