@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #eee;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1120px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.container .row .youtube_video {
+  width: 60%;
+  background-color: #000;
+  position: relative;
+  padding-bottom: 33.25%;
+  height: 0;
+}
+
+.container .row .youtube_video iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container .row .details {
+  width: 38%;
+  margin-left: 2%;
+  padding-left: 20px;
+}
+
+.container .row .details span {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.container .row .details p {
+  font-size: 35px;
+  font-family: "Arvo";
+}
+
+.container .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .gallery .item {
+  width: calc(96% / 4);
+  position: relative;
+}
+
+.container .gallery .item img {
+  width: 100%;
+  display: block;
+}
+
+.container .gallery .item .youtube_icon {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.container .gallery .item .youtube_icon:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.container .gallery .item .youtube_icon.active {
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
+}
+
+.container .gallery .item .youtube_icon.active img {
+  opacity: 0;
+}
+
+.container .gallery .item .youtube_icon img {
+  width: 50px;
+}
+/*# sourceMappingURL=style.css.map */
