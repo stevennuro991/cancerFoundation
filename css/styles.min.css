@@ -17069,6 +17069,7 @@ section.section {
 .button {
     display: inline-block;
     color: #333;
+    background-color: orange;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -21156,7 +21157,7 @@ header.header--intro .button {
     width: 45px;
     border: 2px solid #efc940;
     border-radius: 50%;
-    bacground: transparent;
+    background-color: orange;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
