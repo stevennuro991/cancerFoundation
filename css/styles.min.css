@@ -7,7 +7,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-    --blue: #ffa200;
+    --blue: #00888C;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -17069,7 +17069,7 @@ section.section {
 .button {
     display: inline-block;
     color: #333;
-    background-color: orange;
+    background-color: #00888C;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -17119,7 +17119,8 @@ section.section {
 
 
 .button--squared {
-    background-color: orange;
+    background-color: #00888C
+    ;
     border-radius: 0;
     width: 260px;
     padding: 0 30px 0 30px;
@@ -17527,7 +17528,8 @@ section.section {
 }
 
 .icon--orange {
-    color: #feb248
+    color: #00888C
+
 }
 
 .icon--green {
@@ -20331,7 +20333,7 @@ header.header--intro .button {
 .main-menu__item .main-menu__link {
     position: relative;
     display: inline-block;
-    color: #fff;
+    color:#000;
     font-size: 14px;
     font-weight: 500;
     padding: 31px 0 30px 0;
@@ -20428,7 +20430,8 @@ header.header--intro .button {
     content: "";
     display: inline-block;
     border: 15px solid transparent;
-    border-top: 20px solid orange;
+    border-top: 20px solid #00888C
+    ;
     position: absolute;
     top: -15px;
     left: 40px;
@@ -20445,7 +20448,8 @@ header.header--intro .button {
     left: -35px;
     width: 235px;
     padding: 35px;
-    background-color: orange;
+    background-color: #00888C
+    ;
     -webkit-transform: translateY(15px);
     -ms-transform: translateY(15px);
     transform: translateY(15px);
@@ -21157,7 +21161,8 @@ header.header--intro .button {
     width: 45px;
     border: 2px solid #efc940;
     border-radius: 50%;
-    background-color: orange;
+    background-color: #00888C
+    ;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -27295,7 +27300,8 @@ section.shop {
 
 button{
     border-radius: 20px;
-    background-color: orange;
+    background-color: #00888C
+    ;
     
 }
 
